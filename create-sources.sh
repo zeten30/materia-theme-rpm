@@ -20,7 +20,7 @@ cd materia-theme || exit 1
 
 # Modify sources
 cd ../../sources || exit 1
-sed -i 's/font-family: "M+ 1c", Roboto, Cantarell, Sans-Serif;/font-family: Roboto, Cantarell, Sans-Serif;/g' materia-theme/Materia*/gnome-shell/gnome-shell.css
+sed -i 's/font-family: "M+ 1c", Roboto, Cantarell, Sans-Serif;/font-family: Noto Sans, Sans-Serif;/g' materia-theme/Materia*/gnome-shell/gnome-shell.css
 
 # Compile gresources
 for themedir in materia-theme/Materia*/gnome-shell; do
