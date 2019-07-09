@@ -1,6 +1,6 @@
 Name:           materia-theme
-Version:        2019.04
-Release:        2%{?dist}
+Version:        2019.07
+Release:        1%{?dist}
 Summary:        A Material Design-like theme for GNOME/GTK+ based desktop environments
 
 License:        GPLv2
