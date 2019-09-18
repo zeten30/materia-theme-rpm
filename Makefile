@@ -1,5 +1,5 @@
 # RPM Makefile
-RELEASE=30
+RELEASE=31
 
 srpm:
 	mock -r fedora-$(RELEASE)-x86_64 --spec materia-theme.spec --sources rpmbuild/ --resultdir rpmbuild/ --buildsrpm
