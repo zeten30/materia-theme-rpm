@@ -1,5 +1,5 @@
 Name:           materia-theme
-Version:        2019.09
+Version:        2019.10
 Release:        1%{?dist}
 Summary:        A Material Design-like theme for GNOME/GTK+ based desktop environments
 
@@ -47,6 +47,9 @@ done
 
 
 %changelog
+* Fri Oct 25 2019 Milan Zink <zeten30@gmail.com> - 2019.10.1
+- gnome-shell 3.34 ready
+
 * Fri Feb 15 2019 Milan Zink <zeten30@gmail.com> - 2019.02.3
 - gnome-shell theme hacks - fonts, panel background 
 
