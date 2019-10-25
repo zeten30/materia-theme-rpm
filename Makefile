@@ -3,7 +3,10 @@ RELEASE=31
 clean:
 	rm -rf rpmbuild/*.*
 
-srpm: clean
+sources: clean
+	./create-sources.sh
+
+srpm: sources
 	mock -r fedora-$(RELEASE)-x86_64 --spec materia-theme.spec --sources rpmbuild/ --resultdir rpmbuild/ --buildsrpm
 
 rpm: srpm
