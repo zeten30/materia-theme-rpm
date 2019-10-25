@@ -1,7 +1,9 @@
 # RPM Makefile
 RELEASE=31
+clean:
+	rm -rf rpmbuild/*.*
 
-srpm:
+srpm: clean
 	mock -r fedora-$(RELEASE)-x86_64 --spec materia-theme.spec --sources rpmbuild/ --resultdir rpmbuild/ --buildsrpm
 
 rpm: srpm
