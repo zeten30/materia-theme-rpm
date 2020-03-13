@@ -1,5 +1,5 @@
 # RPM Makefile
-RELEASE=31
+RELEASE=32
 clean:
 	rm -rf rpmbuild/*.*
 
