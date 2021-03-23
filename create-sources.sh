@@ -22,6 +22,7 @@ cd materia-theme || exit 1
 cd ../../sources || exit 1
 sed -i 's/font-family: "M+ 1c", Roboto, Cantarell, Sans-Serif;/font-family: Noto Sans, Sans-Serif;/g' materia-theme/Materia*/gnome-shell/gnome-shell.css
 sed -i 's/background-color: rgba(0, 0, 0, 0.6);/background-color: rgba(40, 40, 40, 0.6);/g' materia-theme/Materia*/gnome-shell/gnome-shell.css
+find . -type f -exec sed -i 's/#121212/#232323/g' {} \;
 
 # Compile gresources
 for themedir in materia-theme/Materia*/gnome-shell; do
