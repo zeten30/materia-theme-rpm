@@ -1,10 +1,10 @@
 Name:           materia-theme
-Version:        2020.08
+Version:        2021.03
 Release:        2%{?dist}
 Summary:        A Material Design-like theme for GNOME/GTK+ based desktop environments
 
 License:        GPLv2
-URL:            https://github.com/nana-4/materia-theme.git}
+URL:            https://github.com/nana-4/materia-theme.git
 Source0:        materia-theme.tar.gz
 
 BuildArch:      noarch
@@ -47,6 +47,8 @@ done
 
 
 %changelog
+* Tue Mar 23 2021 Milan Zink <zeten30@gmail.com> - 2021.03.1
+
 * Fri Oct 25 2019 Milan Zink <zeten30@gmail.com> - 2019.10.1
 - gnome-shell 3.34 ready
 
