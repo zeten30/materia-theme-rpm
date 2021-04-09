@@ -1,6 +1,6 @@
 Name:           materia-theme
-Version:        2021.03
-Release:        3%{?dist}
+Version:        2021.04
+Release:        1%{?dist}
 Summary:        A Material Design-like theme for GNOME/GTK+ based desktop environments
 
 License:        GPLv2
@@ -47,6 +47,9 @@ done
 
 
 %changelog
+* Tue Mar 23 2021 Milan Zink <zeten30@gmail.com> - 2021.04.1
+- adapt to meson build/install
+
 * Tue Mar 23 2021 Milan Zink <zeten30@gmail.com> - 2021.03.3
 - replace darkest color
 
