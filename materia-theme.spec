@@ -1,5 +1,5 @@
 Name:           materia-theme
-Version:        2021.08
+Version:        2021.09
 Release:        1%{?dist}
 Summary:        A Material Design-like theme for GNOME/GTK+ based desktop environments
 
